@@ -33,7 +33,7 @@ class Principal {
         // Verifica si hay productos en la base de datos
         if ($resultado->num_rows > 0) {
             // Botón para agregar un nuevo producto
-            echo '<hr><a href="Nou.php" class="btn btn-primary">Nou producte</a><hr>';
+            echo '<hr><a href="nous/Nou.php" class="btn btn-primary">Nou producte</a><hr>';
             // Tabla para mostrar la lista de productos
             echo '<table class="table table-striped">';
             echo '<thead>
